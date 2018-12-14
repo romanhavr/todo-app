@@ -1,0 +1,176 @@
+html {
+  background-color: rgb(243, 243, 243);
+}
+
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 920px;
+}
+
+.app>h1 {
+  color: rgb(77, 2, 58);
+}
+
+.box {
+  border-bottom: 1px solid dimgray;
+  border-right: 1px solid dimgray;
+  border-radius: 10px; 
+  box-shadow: 2px 2px 0 0 rgba(83, 14, 95, 0.5);
+}
+
+.sidebar {
+  float: left;
+  width: 23%;
+  padding-left: 1%;
+}
+
+.sidebar>h3 {
+  color: rgb(77, 2, 58);
+}
+
+.content {
+  display: block;
+  float: right;
+  width: 70%;
+}
+
+.container {
+  display: block;
+}
+
+.header {
+  padding: 2%;
+}
+
+.header>h3 {
+  color: rgb(77, 2, 58);
+}
+
+.input {
+  margin-bottom: 15px;
+  width: 70%;
+  box-shadow: 2px 2px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+}
+
+.todo-description {
+  width: 70%;
+  box-shadow: 2px 2px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  resize: none;
+}
+
+.add-button {
+  margin-left: 10%;
+  width: 19%;
+  box-shadow: 1px 1px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.todos {
+  float: left;
+  width: 70%;
+}
+
+.todos>h3 {
+  color: rgb(77, 2, 58);
+}
+
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.todo-title {
+  display: flex;
+  width: 90%;
+  cursor: pointer;
+}
+
+.todo-title-completed {
+  font-size: 0.8em;
+  text-align: left;
+  width:90%;
+  color: rgb(151, 35, 35);
+  background-color: rgb(220, 220, 220);
+  padding: 2px 5px 2px 5px;
+  box-shadow: 1px 1px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.todo-button {
+  box-shadow: 1px 1px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  display: flex;
+  height: 1.8em;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.todo-edit-button {
+  color: rgb(149, 0, 255);
+  font-weight: bold;
+}
+
+.edit-description {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.edit-description-text {
+  box-shadow: 2px 2px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  resize: none;
+  width: 90%;
+}
+
+.info {
+  float: right;
+  width: 25%;
+}
+
+.info>h3 {
+  color: rgb(77, 2, 58);
+}
+
+.show-title {
+  float: left;
+  widows: 90%;
+}
+
+.count {
+  color: indigo;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.show-button {
+  box-shadow: 1px 1px 0 0 rgba(83, 14, 95, 0.5);
+  border-radius: 5px; 
+  margin: 3%;
+  float: right;
+  width: 80%;
+  cursor: pointer;
+}
+
+.home>h2 {
+  color: rgb(77, 2, 58);
+}
+
+.about {
+  padding: 1%;
+}
+
+.about>h2 {
+  color: rgb(77, 2, 58);
+}
